@@ -23,7 +23,6 @@ let printMovies = () => {
     for (var i = 0; i < allMovies.length; i++) {
         console.log(allMovies[i].title + ", rating of " + allMovies[i].rating + ", havewatched: " + allMovies[i].haveWatched);
     }
-    console.log("");
     console.log("You have " + allMovies.length + " movies in total");
 }
 
@@ -39,7 +38,6 @@ let highRatings = (rating) => {
             count++;
         }
     }
-    console.log("");
     console.log("In total, there are " + count + " matches");
 }
 
